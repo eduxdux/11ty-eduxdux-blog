@@ -1,14 +1,12 @@
-<li>
-    <article class="snippet">
-        <a href="{{ post.url }}" class="snippet__image"> 
-            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="snippet__image"> 
+<!-- <li> -->
+	<a href="{{ post.url }}" class="gallery-item">
+        <article class="gallery-item">
+            <img class="gallery-item__img" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+            <div class="gallery-item__overlay"></div>
+            <div class="gallery-item__text">
+                <h5>{{ post.data.title }}</h5>
+                <p>{{ post.data.description }}</p>
+            </div>
+        </article>
         </a>
-
-        <h3 class="snippet__title"><a href="{{ post.url }}"> {{ post.data.title }} </a></h3>
-
-        
-        <p class="snippet__meta">by <a href="./about.html"><span>{{ post.data.author }}</span></a></p>
-        <p class="snippet__body">{{ post.data.description }}</p>
-        <a href="{{ post.url }}" class="btn btn--primary">Read</a>
-    </article>
-</li>
+<!--</li>-->
