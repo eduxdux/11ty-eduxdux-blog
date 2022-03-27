@@ -176,6 +176,9 @@ img {
     transform: scale(1);
     -webkit-filter: blur(0px);
     filter: blur(0px);
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
 }
 .gallery-item .gallery-item__overlay {
     width: 100%;
