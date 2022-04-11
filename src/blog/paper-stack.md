@@ -48,8 +48,6 @@ After getting a good shape from these stacked papers, I started thinking about h
 
 With chroma.js I just added a few lines and got what I wanted
 
-Translated with www.DeepL.com/Translator (free version)
-
 #### Libs
 
 Since I don't have the greatest patience in the world I look for small (or large) solutions to help me stylize and facilitate my work. And here it was no different, I used libraries for p5.js and for Js in general.
