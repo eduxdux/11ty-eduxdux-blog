@@ -143,6 +143,23 @@ img {
     max-width: 100%;
     height: auto;
 }
+.plataformas{
+    margin-top: 25px;
+
+}
+
+.plataformas a{
+    text-decoration: none;
+    color: var(--texto);
+    font-weight: 700;
+    margin: 5px;
+}
+
+.plataformas a:hover{
+    color: var(--pink);
+    font-weight: 900;
+    
+}
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -150,6 +167,7 @@ img {
     grid-gap: 0.3rem;
     margin: 0.2rem;
     padding: 1% 10% 0px;
+    margin-bottom: 30px;
 }
 .gallery-item {
     position: relative;
@@ -228,7 +246,7 @@ img {
 .titulo {
     text-align: center;
     margin: 5% 0 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3.5%;
     margin-top: 150px;
 }
 .titulo img {
