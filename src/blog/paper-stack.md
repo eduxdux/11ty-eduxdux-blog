@@ -11,6 +11,8 @@ imageAlt: Purple paper stack image
 ---
 <!--StartFragment-->
 
+![One of the final results of paper stack piece](/assets/blog/rnd14.png "One of the final results of paper stack piece")
+
 ## Paper Stack
 
 Paper stack its a creative-code art, created with Javascript.
@@ -58,13 +60,9 @@ p5 Scribbles
 
 <https://github.com/generative-light/p5.scribble.js>
 
-
-
 p5 patterns
 
 <https://github.com/SYM380/p5.pattern>
-
-
 
 chroma.js
 
