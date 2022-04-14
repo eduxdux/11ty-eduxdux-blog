@@ -15,9 +15,7 @@ imageAlt: Purple paper stack image
 
 ## Paper Stack
 
-Paper stack its a creative-code art, created with Javascript.
-
-#### **It will be launched on FxHash on April 16**
+Paper stack its a creative-code art, created with Javascript.*`(It will be launched on FxHash on April 16)`*
 
 Initially my idea was to create only basic geometric shapes that by giving a false extrude create a certain 3d appearance.
 
