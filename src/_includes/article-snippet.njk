@@ -1,12 +1,11 @@
 <!-- <li> -->
-	<a href="{{ post.url }}" class="gallery-item">
-        <article class="gallery-item">
-            <img class="gallery-item__img" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
-            <div class="gallery-item__overlay"></div>
-            <div class="gallery-item__text">
-                <h5>{{ post.data.title }}</h5>
+	{# <a href="{{ post.url }}" class="gallery-item"> #}
+        <article class="card" onclick="window.location.href='{{ post.url }}'">
+            <img class="card-img" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+            <div class="card-text">
+                <h3>{{ post.data.title }}</h3>
                 <p>{{ post.data.description }}</p>
             </div>
         </article>
-        </a>
+        {# </a> #}
 <!--</li>-->

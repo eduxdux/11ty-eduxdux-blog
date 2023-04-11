@@ -4,35 +4,41 @@ layout: 'base.njk'
 ---
 
 
+<div class="conteudo">
+<section class="sobre">
+      <img src="https://i.imgur.com/1nV5cn7.png" alt="Foto" class="foto-secao">
+      <div>
+          <h3>GUESS WHO I AM</h3>
+          <p>Eduardo Crivellari, aka. eduxdux, is a skilled Brazilian generative artist with a degree in Animation
+              Cinema and Digital Arts (UFMG). Fusing his love for technology and art, eduxdux crafts unique and
+              innovative pieces, delving into the interplay between the human and the digital realm. His work is
+              characterized by experimentation, pushing the boundaries of creativity</p>
 
-<div class="titulo">
-	<img src="https://i.imgur.com/FMrfp2P.png" alt="">
-	<h1>Eduxdux</h1>
-	<span><h4>My name is Eduardo, aka Eduxdux, I am a Brazilian multidisciplinary artist</h4>
-	<h4>
- I love to create things and explore new skills by combining them with my imagination.</h4></span>
- <div class="plataformas">
-       <a href="https://www.fxhash.xyz/u/Eduxdux" target="_blank">FxHash</a>
-      <a href="https://polyblocks.io/creations/0x22D02786f813A70c5699621810D0ea85efA07332" target="_blank">PolyBlocks</a>
-</div>
- 
+          <div class="links">
+              <ul>
+                  <li><a href="https://www.fxhash.xyz/u/Eduxdux" target="_blank">FxHash</a></li>
+                  <li><a href="#" target="_blank">Eclipse.art</a></li>
+                  <li><a href="https://foundation.app/collection/malado" target="_blank">Foundation</a></li>
+                  <li><a href="https://twitter.com/eduxdux_" target="_blank">Twitter</a></li>
+              </ul>
+          </div>
+      </div>
 
-</div>
+  </section>
 
 
 
-<div style="text-align: center;
-            color: white;
-            font-weight: bold;
-            font-size: 1.5rem;
-"><h2>My posts:</h2></div>
-      <section class="gallery">
 
+
+
+      <section class="card-list">
+            <h2>Featured works:</h2>
       {%- for post in collections.post | reverse -%}
       {% include "article-snippet.njk" %}
       {% endfor %}
 
       </section>
+</div>
 
 
   
