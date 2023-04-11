@@ -29,8 +29,24 @@ The collection is a visual representation of various moments in life, with each 
 
 Overall, "Enquadrado" is a thoughtful and artistic exploration of the complexity and fluidity of life, and the ways in which we create order and meaning in the world around us.
 
+<!--EndFragment-->
 
+<!--StartFragment-->
+
+### Inspirations
+
+This work drew inspiration from a variety of sources beyond the field of generative art.
+
+The primary inspiration came from the production of Brazilian tapestries, which often feature rectangles or squares made from colorful, non-linear lines. The result is a unique and cohesive composition.
+
+![](https://i.imgur.com/ujWLlO6.png)
+
+Another source of inspiration was street art and the paintings created by people who use spray paint to decorate doors and gates without proper isolation. In Brazil, it is common to see paint residue in the form of dots or lines that are unintentionally left behind on nearby surfaces. While many consider this to be an eyesore, it also creates a distinctive and memorable "accidental" geometry
+
+Overall, this work is a reflection of the artist's diverse range of influences, which come together to create a unique and thought-provoking composition
 
 <!--EndFragment-->
+
+
 
 <!--EndFragment-->
