@@ -33,7 +33,7 @@ layout: 'base.njk'
 
       <section class="card-list">
             <h2>Featured works:</h2>
-      {%- for post in collections.post | reverse -%}
+      {%- for post in collections.featured | reverse -%}
       {% include "article-snippet.njk" %}
       {% endfor %}
 
