@@ -1,13 +1,13 @@
 ---
-title: "| Paper stack |"
-description: Paper stack its a creative-code art, created with Javascript.
+title: Enquadrado
+description: 256ed | Eclipse.art (eth)
 author: Eduxdux
 date: 2023-04-11T17:28:51.557Z
 tags:
   - post
   - featured
-image: /assets/blog/rnd14.png
-imageAlt: Purple paper stack image
+image: /assets/blog/enquadrado_by_eduxdux-1-.png
+imageAlt: Enquadrado cover picture
 ---
 <!--StartFragment-->
 
