@@ -492,7 +492,7 @@ nav .icon-burger .line {
     flex-wrap: wrap;
     /* justify-content: center;
     align-items: center; */
-    padding: 2em 0 2em 0;
+    /* padding: 2em 0 2em 0; */
 }
 
 .card-list h2 {
@@ -518,26 +518,27 @@ nav .icon-burger .line {
 }
 
 @media (max-width: 767px) {
-    .card-img {
-        min-width: 100vh; /* Define a largura mínima da imagem */
-        height: auto; /* Mantém a proporção da imagem */
-    }
-    .card-list{
-        display: flex;
-        flex-wrap: wrap;
-        /* justify-content: center;
-        align-items: center; */
-        padding: 2em 1em 2em 3em;
-    }
-    body{
+    .card{
         width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    section{
-        padding: 3em 12em 3em 12em;
         margin: 0 auto;
     }
+    .card-img {
+        min-width: 100%; /* Define a largura mínima da imagem */
+        height: 100px; /* Mantém a proporção da imagem */
+    }
+    /* .card-list{
+        display: flex;
+        flex-wrap: wrap;
+        
+    } */
+    .sobre{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .sobre div {
+        margin-top: 2em;
+    }
+    
 }
 
 
