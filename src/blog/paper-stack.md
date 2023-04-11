@@ -5,7 +5,6 @@ author: Eduxdux
 date: 2022-04-11T18:10:18.991Z
 tags:
   - post
-  - featured
 image: /assets/blog/rnd14.png
 imageAlt: Purple paper stack image
 ---
