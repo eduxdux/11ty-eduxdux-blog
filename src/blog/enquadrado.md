@@ -1,6 +1,6 @@
 ---
 title: Enquadrado
-description: 256ed | Eclipse.art (eth)
+description: 128ed | Eclipse.art (eth)
 author: Eduxdux
 date: 2023-04-11T17:28:51.557Z
 tags:
@@ -14,6 +14,8 @@ imageAlt: Enquadrado cover picture
 ![Enquadrado](/assets/blog/rnd-1675725905792.png)
 
 <!--StartFragment-->
+
+<https://www.eclipse.art/drops/enquadrado>
 
 ### About it
 
@@ -46,7 +48,5 @@ Another source of inspiration was street art and the paintings created by people
 Overall, this work is a reflection of the artist's diverse range of influences, which come together to create a unique and thought-provoking composition
 
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
