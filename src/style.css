@@ -487,59 +487,39 @@ nav .icon-burger .line {
     text-decoration: none; /* Adiciona o sublinhado de volta ao passar o mouse */
 }
 
-.card-list{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center;
-    align-items: center; */
-    /* padding: 2em 0 2em 0; */
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1em;
 }
 
-.card-list h2 {
+.card-list-wrap h2 {
     font-size: 1.5em;
     font-weight: 700;
     color: #fff
 }
 .card {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
-    margin-top: 1em;
     cursor: pointer;
-    width: 100%; /* Ocupa a maior parte do espaço horizontal */
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.card-img-wrapper {
+    width: 250px;  /* ou outro valor que preferir */
+    height: 250px; /* deve ser igual à largura para manter a proporção de 1:1 */
+    position: relative;
 }
 
 .card-img {
-    width: 100%; /* A imagem ocupa toda a largura do card */
-    height: 250px; /* Altura da imagem fixa em 110px */
-    object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-@media (max-width: 767px) {
-    .card{
-        width: 100%;
-        margin: 0 auto;
-    }
-    .card-img {
-        min-width: 100%; /* Define a largura mínima da imagem */
-        height: 100px; /* Mantém a proporção da imagem */
-    }
-    /* .card-list{
-        display: flex;
-        flex-wrap: wrap;
-        
-    } */
-    .sobre{
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .sobre div {
-        margin-top: 2em;
-    }
-    
-}
+
 
 
 .card-text{
@@ -557,3 +537,72 @@ nav .icon-burger .line {
     width: 60%;
     margin: 0 auto; /* Centraliza o body horizontalmente */
 }
+
+.tags {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .tag {
+    background-color: #2e2e2e;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+/* Seu código original aqui... */
+
+@media screen and (max-width: 768px) {
+    /* Sua nav alterada aqui... */
+
+    /* Tornando a grade da galeria mais amigável para mobile */
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        padding: 0% 2% 0px;
+    }
+
+    /* Ajustando tamanho das imagens na galeria para mobile */
+    .gallery-item .gallery-item__img {
+        width: auto;
+        height: auto;
+    }
+
+    /* Ajustando títulos e subtextos para mobile */
+    .titulo h1, .contact h1 {
+        font-size: 2em;
+    }
+
+    .titulo h4, .contact h4 {
+        font-size: 0.875rem;
+        padding: 0 2% 0;
+    }
+
+    .sobre {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .foto-secao {
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+
+    .sobre h3 {
+        font-size: 2em;
+    }
+
+    /* Espaçamento dos links */
+    .links ul {
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+  

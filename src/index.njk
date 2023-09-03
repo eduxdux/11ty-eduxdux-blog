@@ -38,20 +38,28 @@ layout: 'base.njk'
 
 
 
-      <section class="card-list">
+      <section class="card-list-wrap" >
             <h2>Featured works:</h2>
+        <div class="card-list">
+            {{ featureds.snippet('https://prohibition.art/project/my-life', 'https://prohibition.art/_next/image?url=https%3A%2F%2Fmedia-proxy-arbitrum.artblocks.io%2F0x47A91457a3a1f700097199Fd63c039c4784384aB%2F19000014.png&w=640&q=75', 'My life image', 'My life', 'Arbitrum','On sale') }}
+            {{ featureds.snippet('https://highlight.xyz/mint/64f247c8373cff27b5e92ff4', 'https://pbs.twimg.com/media/F5H-aH9W0AAoygi?format=jpg&name=4096x4096', 'Bloquinhos image', 'Bloquinhos', 'Base','Upcoming') }}
+            {{ featureds.snippet('https://zora.co/collect/zora:0x070705eaeb0dfa8b27211248b22966ed5b9328d4', 'https://remote-image.decentralized-content.com/image?url=https%3A%2F%2Fipfs.decentralized-content.com%2Fipfs%2Fbafybeic5dtyu3l62nf6gakmxnna5qhongi6pzslt3aojshse2q7pe5p7si&w=1920&q=75', 'Abstrato mutante image', 'Abstrato mutante', 'Zora','Free open Edition') }}
+            {{ featureds.snippet('https://www.fxhash.xyz/generative/24399', 'https://gateway.fxhash.xyz/ipfs/QmdtdEpcmwnEL6XqQRWEuEb2kJDLNT9TfHdGyUbe5HPKW8', 'Livro image', 'Livro', 'Tezos','Soldout') }}
+            {{ featureds.snippet('https://foundation.app/collection/malado', 'https://f8n-production-collection-assets.imgix.net/0x417f086480C88a4A6B87631CcCA8113C2E265f27/5/nft.png?q=80&auto=format%2Ccompress&cs=srgb&w=3000&h=3000&fit=max', 'Malado image', 'Malado', 'Ethereum','On sale') }}
+            {{ featureds.snippet('https://www.fxhash.xyz/generative/16298', 'https://gateway.fxhash.xyz/ipfs/QmR3PkcV2hhNtHnoXwmGpaGKEj7PmFE4MatUvDuoV2ebnZ', 'Balai image', 'Balai', 'Tezos','Soldout') }}
+            {{ featureds.snippet('https://www.fxhash.xyz/generative/8832', 'https://gateway.fxhash.xyz/ipfs/QmYz83HMHuAVN2rWfZMsRJ3mjjb8QZEG7dTbXK7xPPE8sw', 'Puxadinho image', 'Puxadinho', 'Tezos','Soldout') }}
+            
 
-            {{ featureds.snippet('https://prohibition.art/project/my-life', 'https://prohibition.art/_next/image?url=https%3A%2F%2Fmedia-proxy-arbitrum.artblocks.io%2F0x47A91457a3a1f700097199Fd63c039c4784384aB%2F19000014.png&w=640&q=75', 'My life image', 'My life', 'Longform generative artwork on Arbitrum') }}
-            {{ featureds.snippet('https://www.fxhash.xyz/generative/24399', 'https://gateway.fxhash.xyz/ipfs/QmdtdEpcmwnEL6XqQRWEuEb2kJDLNT9TfHdGyUbe5HPKW8', 'Livro image', 'Livro', 'Longform generative artwork on Tezos') }}
-            {{ featureds.snippet('https://foundation.app/collection/malado', 'https://f8n-production-collection-assets.imgix.net/0x417f086480C88a4A6B87631CcCA8113C2E265f27/5/nft.png?q=80&auto=format%2Ccompress&cs=srgb&w=3000&h=3000&fit=max', 'Malado image', 'Malado', 'Longform generative artwork on Eth') }}
-            {{ featureds.snippet('https://www.fxhash.xyz/generative/16298', 'https://gateway.fxhash.xyz/ipfs/QmR3PkcV2hhNtHnoXwmGpaGKEj7PmFE4MatUvDuoV2ebnZ', 'Balai image', 'Balai', 'Longform generative artwork on Tezos') }}
-            {{ featureds.snippet('https://www.fxhash.xyz/generative/8832', 'https://gateway.fxhash.xyz/ipfs/QmYz83HMHuAVN2rWfZMsRJ3mjjb8QZEG7dTbXK7xPPE8sw', 'Puxadinho image', 'Puxadinho', 'Longform generative artwork on Tezos') }}
-      {# {%- for post in collections.featured | reverse -%}
-      {% include "article-snippet.njk" %}
-      {% endfor %} #}
-
+    </div>
       </section>
 </div>
 
 
   
+{# <link rel="stylesheet" href="https://mint.highlight.xyz/assets/embed.css" />
+<div data-widget="highlight-mint-card" data-mint-collection-id="64f247c8373cff27b5e92ff4"></div>
+<script type="module" crossorigin="true" src="https://mint.highlight.xyz/assets/embed.js?v=1"></script> #}
+  
+      {# {%- for post in collections.featured | reverse -%}
+      {% include "article-snippet.njk" %}
+      {% endfor %} #}
