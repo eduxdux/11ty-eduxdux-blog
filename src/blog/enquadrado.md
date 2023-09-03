@@ -5,7 +5,6 @@ author: Eduxdux
 date: 2023-04-11T17:28:51.557Z
 tags:
   - post
-  - featured
 image: /assets/blog/enquadrado_by_eduxdux-1-.png
 imageAlt: Enquadrado cover picture
 ---
