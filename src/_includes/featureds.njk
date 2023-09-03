@@ -1,0 +1,13 @@
+{% macro snippet(url, image, imageAlt, title, description) %}
+{# <li>
+  <a href="{{ url }}" class="gallery-item"> #}
+    <article class="card" onclick="event.preventDefault(); window.open('{{ url }}', '_blank')">
+      <img class="card-img" src="{{ image }}" alt="{{ imageAlt }}">
+      <div class="card-text">
+        <h3>{{ title }}</h3>
+        <p>{{ description }}</p>
+      </div>
+    </article>
+  {# </a>
+</li> #}
+{% endmacro %}
